@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+
+body{
+    margin: 0;
+} 
+    
+ }
+ :root{
+    --fundo: grey;
+    --cor1: white;
+    --borda: 2px solid red;
+    --cor2: #333;
+ }
+ 
+ .mododark{
+    --texto: white;
+    --fundo: black;
+    --cor1: grey;
+    --borda: 2px solid blue;
+    --cor2: blue;
+}
+
+ #pg1{
+    background-color: var(--fundo);
+    width: 100%;
+    background-position: center center;
+    height: 95vh;
+    margin: 0;
+    background-size: cover;
+    }
+
+
+.cabeca{
+        width:80%;
+        margin: 0 auto;
+        margin-top: 2vh;
+        height: 2vh;
+        background-color:var(--cor1);
+        padding: 3%;
+        display: flex;
+        align-self: flex-start;
+       border: var(--borda);
+       justify-content: space-between;
+
+    }
+
+#corpo{
+   
+display: grid;
+grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+
+
+}
+    
+.footer {
+    background-color: var(--cor2); 
+    color: #fff;           
+    text-align: center;     
+    padding: 20px 0;        
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.footer-content {
+    max-width: 1200px;     
+    margin: 0 auto;       
+    padding: 0 20px;       
+}
+
+
+.footer-nav a {
+    color: #fff;           
+    text-decoration: none; 
+    margin: 0 10px;        
+}
+
+.footer-nav a:hover {
+    text-decoration: underline; 
+}
+
+#dark{
+    background-color: black;
+    width: 30px;
+    background-position: center center;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    background-size: cover;
+}
+
+
+  
+.card{
+    border-radius: 20px;
+    border: 1px solid black;
+    display: grid;
+}
+.cardpai{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 7%;
+}
+
+.card{
+width: 300px;
+height: 300px; 
+display: flex;
+justify-content: center;
+align-items: center;   
+}
